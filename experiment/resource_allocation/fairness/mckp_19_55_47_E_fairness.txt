@@ -1,0 +1,46 @@
+&{"F":0.34,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 1.59}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 2.36}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 4, 'U': 11.24}]}#
+&{"F":0.37,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 1.59}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 2.36}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 4, 'U': 11.24}]}#
+&{"F":0.40,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 1.59}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 2.36}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 5, 'U': 14.05}]}#
+&{"F":0.43,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 1.59}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 2.36}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 5, 'U': 14.05}]}#
+&{"F":0.46,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 2, 'U': 3.18}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 6, 'U': 16.86}]}#
+&{"F":0.49,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 2, 'U': 3.18}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 6, 'U': 16.86}]}#
+&{"F":0.52,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 2, 'U': 3.18}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 6, 'U': 16.86}]}#
+&{"F":0.55,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 2.36}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 7, 'U': 19.67}]}#
+&{"F":0.58,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 2.36}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 7, 'U': 19.67}]}#
+&{"F":0.61,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 2.36}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 7, 'U': 19.67}]}#
+&{"F":0.64,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 2.36}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 8, 'U': 22.48}]}#
+&{"F":0.67,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 2.36}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 8, 'U': 22.48}]}#
+&{"F":0.70,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 2.36}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 8, 'U': 22.48}]}#
+&{"F":0.73,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 1.59}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 9, 'U': 25.29}]}#
+&{"F":0.76,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 1.59}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 9, 'U': 25.29}]}#
+&{"F":0.79,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 1, 'U': 1.59}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 9, 'U': 25.29}]}#
+&{"F":0.82,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 10, 'U': 28.1}]}#
+&{"F":0.85,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 10, 'U': 28.1}]}#
+&{"F":0.88,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 11, 'U': 30.91}]}#
+&{"F":0.91,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 11, 'U': 30.91}]}#
+&{"F":0.94,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 11, 'U': 30.91}]}#
+&{"F":0.97,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 12, 'U': 33.72}]}#
+&{"F":1.00,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.525,"R_net":91.900,"M_net":90.800}&
+#{'inception': [{'intra': 3, 'k': 7, 'efficiency': 0.53, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'resnet': [{'intra': 4, 'k': 9, 'efficiency': 0.59, 'user_num_per_ins': 1, 'ins_num': 0, 'U': 0.0}], 'mobilenet': [{'intra': 1, 'k': 8, 'efficiency': 2.81, 'user_num_per_ins': 1, 'ins_num': 12, 'U': 33.72}]}#

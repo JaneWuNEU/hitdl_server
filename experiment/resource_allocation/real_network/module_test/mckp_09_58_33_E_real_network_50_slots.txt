@@ -1,0 +1,250 @@
+&{"index":0.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":88.500,"R_net":78.800,"M_net":85.200}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":1.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":85.300,"R_net":89.000,"M_net":81.100}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":2.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":85.700,"R_net":89.400,"M_net":90.700}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":3.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":91.200,"R_net":85.300,"M_net":89.200}&
+#inception:[{'intra': 3, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":4.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":91.900,"R_net":76.200,"M_net":89.500}&
+#inception:[{'intra': 3, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 2, 'k': 0, 'user_num_per_ins': 1, 'ins_num': 2}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":5.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":91.300,"R_net":79.900,"M_net":86.600}&
+#inception:[{'intra': 3, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":6.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":91.400,"R_net":78.400,"M_net":85.900}&
+#inception:[{'intra': 3, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":7.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":86.700,"R_net":71.400,"M_net":90.500}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 2, 'k': 0, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":8.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":77.300,"R_net":84.300,"M_net":69.600}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":9.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":82.800,"R_net":90.200,"M_net":84.700}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":10.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":84.500,"R_net":87.900,"M_net":75.700}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":11.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":89.700,"R_net":91.000,"M_net":78.800}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":12.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":84.400,"R_net":93.600,"M_net":67.900}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 3, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 1}]#
+
+&{"index":13.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":89.700,"R_net":87.500,"M_net":67.700}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 3, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 1}]#
+
+&{"index":14.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":74.900,"R_net":94.100,"M_net":77.000}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":15.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":98.100,"R_net":93.600,"M_net":70.200}&
+#inception:[{'intra': 3, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":16.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":92.100,"R_net":89.500,"M_net":84.100}&
+#inception:[{'intra': 3, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":17.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":87.100,"R_net":92.100,"M_net":78.900}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":18.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":80.400,"R_net":84.000,"M_net":81.100}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":19.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":77.300,"R_net":85.600,"M_net":70.600}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":20.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":80.700,"R_net":90.900,"M_net":78.100}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":21.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":85.200,"R_net":92.700,"M_net":77.200}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":22.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":79.100,"R_net":91.800,"M_net":68.200}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":23.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":85.200,"R_net":92.400,"M_net":68.300}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":24.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":84.100,"R_net":93.400,"M_net":55.000}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+
+&{"index":25.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":84.500,"R_net":89.400,"M_net":61.500}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":26.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":82.200,"R_net":93.200,"M_net":62.600}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":27.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":78.300,"R_net":92.600,"M_net":69.200}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":28.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":77.900,"R_net":94.000,"M_net":61.400}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":29.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":83.000,"R_net":94.200,"M_net":65.000}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":30.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":75.200,"R_net":94.200,"M_net":64.400}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":31.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":74.900,"R_net":92.600,"M_net":53.200}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 0, 'user_num_per_ins': 2, 'ins_num': 5}]#
+
+&{"index":32.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":82.000,"R_net":89.700,"M_net":65.700}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":33.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":81.900,"R_net":94.100,"M_net":65.300}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":34.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":78.600,"R_net":91.000,"M_net":52.500}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 0, 'user_num_per_ins': 2, 'ins_num': 5}]#
+
+&{"index":35.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":83.200,"R_net":92.500,"M_net":51.500}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 0, 'user_num_per_ins': 2, 'ins_num': 4}]#
+
+&{"index":36.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":76.400,"R_net":91.600,"M_net":60.900}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":37.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":80.000,"R_net":93.200,"M_net":61.000}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":38.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":90.000,"R_net":91.500,"M_net":66.600}&
+#inception:[{'intra': 3, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":39.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":78.600,"R_net":91.000,"M_net":65.600}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":40.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":78.300,"R_net":94.100,"M_net":72.700}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":41.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":83.800,"R_net":89.500,"M_net":75.000}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":42.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":83.800,"R_net":82.600,"M_net":81.100}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":43.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":75.500,"R_net":85.800,"M_net":79.200}&
+#inception:[{'intra': 5, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":44.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":83.400,"R_net":90.700,"M_net":64.800}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 2, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 2}]#
+
+&{"index":45.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":87.700,"R_net":93.400,"M_net":81.200}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 8, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":46.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":94.200,"R_net":80.000,"M_net":75.000}&
+#inception:[{'intra': 3, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":47.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":94.100,"R_net":100.000,"M_net":75.600}&
+#inception:[{'intra': 3, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":48.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":89.900,"R_net":87.500,"M_net":70.100}&
+#inception:[{'intra': 3, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 5, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+
+&{"index":49.00,"F":0.45,I_W":0.38,"R_W":0.38,"M_W":0.24,"I_net":89.500,"R_net":93.800,"M_net":70.000}&
+#inception:[{'intra': 4, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 0}]#
+#resnet:[{'intra': 4, 'k': 9, 'user_num_per_ins': 1, 'ins_num': 1}]#
+#mobilenet:[{'intra': 1, 'k': 7, 'user_num_per_ins': 1, 'ins_num': 5}]#
+

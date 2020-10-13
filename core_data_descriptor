@@ -1,0 +1,214 @@
+********** general rules ************
+1. all the connections are closed by the server,rather than the client.
+
+
+
+
+***********  server ******************
+############ main procedure ############
+loop $specific_times
+    1. realse resource
+        1.1 get the recv_port of each model instance, and release the port
+        1.2 get the pid of each model instance, and kill the corresponding process
+        1.3 reset the out-dated bandwidth info
+
+    2. get the resource allocation strategy
+        2.1 get the default bandwidth
+        2.2 get the strategy
+
+    3. notify users of the model info of the strategy
+
+    4. depend on the strategy to deploy models and allocate ports
+        4.1 depend on the value of $ins_num and $user_num_per_ins to initialize the model instance
+            4.1.1 allocate and bind cores to the instance
+            4.1.2 allocate a port as the recv_port for the instance
+            4.1.3 start a new thread to listen the above recv_port
+        4.2 get the data from the recv_queue and run the model
+        4.3 depend on the $recv_port of the data sent from the mobile to return the results
+        4.4 update the ports info of the strategy
+
+    5. notify users of the port info of the strategy
+
+
+
+
+==========strategy================
+2.strategy = {
+"inception":[{"k":X,"intra":,"ins_num":,"user_num_per_ins":}],
+"resnet":{},
+"mobilenet":{}
+}
+
+tips:
+1. "r1": partition_index (also called as k),
+k=>0 when model runs on edge. k = -1, when it runs locally.
+k=0 means whe model runs on the edge completely.
+
+2."ins_amount": the number of instances built for the model
+$ins_amount>=0
+
+3."user_amount": the number of users an instance can support.
+$user_amount > 0
+
+4."intra"
+
+
+==========  bandwidth  ================
+1. model_bandwidth{
+"inception":{"upload_bandwidth":,"download_bandwidth":},
+"resnet":{"upload_bandwidth":,"download_bandwidth":},
+"mobilenet":{"upload_bandwidth":,"download_bandwidth":}
+}
+    tips:
+    1.1. use the average bandwidth of a group of users who access to the same model like Inception or ResNet.
+    1.2. the unit of the bandwidth is Mbps (Million bits per second)
+    1.3. the edge measures the bandwidth of users while receving the data sent from the users, and the update the
+    bandwidth info.
+
+2. user_bandwidth = {"user":{"upload_bandwidth":x,"download_bandwidth"}}
+    tips:
+    2.1. $user = $model_name_$user_ip_$user_id
+    2.2  By default, we use tc to control the download_width same as user's upload_bandwidth. What's more,
+         the script of tc should run on the edge.
+    2.3  The bandwidth will update only when user sent the data to the edge port.
+
+
+============ notice ==========
+notice = {
+type:'create'|'activate|remove_rasp',
+model_details:{
+inception:{
+k:
+ins_num: X,
+user_num_per_ins:Y}
+resnet:{...}
+mobilenet:{...}
+},
+port_details:
+{
+ inception:[], #ports list assigned for each model instance
+ resnet:[],
+ mobilenet:[]
+}
+bandwidth:{
+"incpetion":x,
+"resnet":x
+"mobilenet":x} #the unit is Mbits/s
+}
+tips:
+1. when the type is 'create', $port_details is set as None, while when type is activate, $model_details is None
+2. $ins_num is the number of instances created for inception
+3. $user_num_per_ins is the number of users that an instance of inception can support
+
+=======  requests result ============
+request_id ={"edge_run_time":X,
+"pic_num":Y,
+"image_id":Z,
+"queue_time":x,
+"edge_queue_time":x,
+"edge_recv_time":} # the index of the recongnized object
+
+
+tips:
+1.1 there is no need for edge to record requests because the mobile has already done the tasks
+1.2 there are two additional attributes as $enqueue_time and $edge_recv_time that need to be added
+during receving and putting the requests in the $request_queue.
+
+=======  release_flag ========
+1.
+0: initialize the model instance and have not assigned it with a specific ports
+>0: the recv_port bound to the instance
+tips:
+1.1 the port is released when the system generate the new resource allocation strategy.
+
+
+=======  model_ins_pid_list  =====
+Each model instance runs in an individual process, we restore the pid
+of this process. When a new round of resource allocation occurs, all the out-dated model
+instances are removed by kill the processes they occupies.
+
+
+
+
+
+**************************** client ***************************
+=========  model id  =============
+$model_name_$user_ip_$mobile_type_$user_num
+e.g. 'alexnet_192.168.31.151_M1_1'
+user_num is bound with the index of CPU cores.
+
+
+======  activate_flag =======
+0: the user just is created without activation
+>0: the recv_port of the edge, and the user sends data to this port.
+-1: release the user
+
+=====   recv_port (main.py) =====
+0: the user has not allocated a recv_port
+>0: the allocated receving port
+
+========  models' CPU core mapping ===========
+1. inception优先占用第一块CPU
+2. inception和resnet分开放
+
+
+
+
+========== request records===========
+Before the users logout, all the records is outputed into an excel.
+Each sheet stores the records of a specific user.
+-->file_name = current_time(%d%h%m%s)
+-->sheet_name = user_id+model_name
+-->sheet_data =
+ {pic_num:{mobile_send_time:,mobile_recv_time:,
+ local_run_time:,edge_run_time:,
+ image_id:,edge_queue_time:,edge_recv_time:,start_time:,end_time:}}
+send_time: the sending time of mobile clients.
+
+
+
+========= user requests =========
+1.request_id: {
+recv_port:,
+data:{'data':,'pic_num':},
+user_ip:,
+user_id:
+}
+tips:
+1.1 data["data"] has the demension for batch
+1.2 $request_id = $pic_num
+
+2.images are processed with a fixed rate as frame rate, and if the
+{time_gap = round(frame_interval-image_process-time,3)}>0.003, then
+sleep(time_gap). Otherwise, process next image immediately.
+
+
+
+
+
+
+
+==========  important port  =========
+edge_notice_listening_port:10980
+
+
+
+
+
+
+
+========= user state (deprecated)===========
+0: inactive
+this user is paused due to the re-deployment of models
+1: active
+this user sends requests to the edge now
+-1:inactive
+this user has deregistered.
+
+tisp:
+1. There is no deregisteration now. Only when the user is not allowed to access
+to an instance, then his state is -1
+
+2. Only when the system re-allocates its resource to models does it pause the users, and
+their state become 0int
+

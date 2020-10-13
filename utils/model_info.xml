@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <!-- 1. model_layer_nums includes the layer of input and predictions
+      2. the unit of model_layer_size is byte
+      3.
+ -->
+<model>
+        <inception>
+                <model_layer_name>['input','Conv2d_1a_3x3','Conv2d_2a_3x3' ,'Conv2d_2b_3x3' ,'MaxPool_3a_3x3' ,'Conv2d_3b_1x1' ,'Conv2d_4a_3x3'
+                        ,'MaxPool_5a_3x3' ,'Mixed_5b' ,'Mixed_5c' ,'Mixed_5d' ,'Mixed_6a','Mixed_6b' ,'Mixed_6c' ,'Mixed_6d'
+                        ,'Mixed_6e' ,'Mixed_7a' ,'Mixed_7b' ,'Mixed_7c','Predictions']
+                </model_layer_name>
+                <model_layer_shape>
+                        [(299,299,3),(149, 149, 32) ,(147, 147, 32) ,(147, 147, 64) ,(73, 73, 64) ,(73, 73, 80)
+                        ,(71, 71, 192) ,(35, 35, 192) ,(35, 35, 256) ,(35, 35, 288) ,(35, 35, 288)
+                        ,(17, 17, 768) ,(17, 17, 768) ,(17, 17, 768) ,(17, 17, 768) ,(17, 17, 768)
+                        ,(8, 8, 1280) ,(8, 8, 2048) ,(8, 8, 2048),(1001,1)]
+                </model_layer_shape>
+                <model_layer_size>
+[268468, 2841991, 2766215, 5532167, 1364487, 1705543, 3871751, 941063, 1254664, 1411464, 1411464, 888072, 888072, 888072, 888072, 888072, 327944, 524552, 524552]
+                </model_layer_size>
+                <model_layer_nums>
+                    20
+                </model_layer_nums>
+                <mobile_latency>
+                    [0,0.004401293,0.012480071,0.025412809,0.026158837,0.027357339,0.043576355,0.044621932,
+                    0.053669665,	0.06564864,	0.075612489,0.086057259	,0.098488912,	0.110247665,	0.123542706,	0.139678099
+                    ,0.148780991,	0.15388061,	0.165217798,	0.165754774]
+                </mobile_latency>
+
+       </inception>
+        <resnet>
+                <model_layer_name>["input","conv1", "pool1", 'block1/unit_1', 'block1/unit_2', 'block1/unit_3',
+                 'block2/unit_1', 'block2/unit_2', 'block2/unit_3', 'block2/unit_4',
+                 'block3/unit_1', 'block3/unit_2', 'block3/unit_3', 'block3/unit_4',
+                 'block3/unit_5', 'block3/unit_6', 'block4/unit_1', 'block4/unit_2',
+                 'block4/unit_3', "global_pool",'predictions']
+                </model_layer_name>
+                <model_layer_shape>
+                        [(224,224,3),(122, 122, 64), (61, 61, 64), (61, 61, 256), (61, 61, 256), (31, 31, 256), (31, 31, 512),
+                        (31, 31, 512),(31, 31, 512),(14, 14, 512), (16, 16, 1024),(16, 16, 1024), (16, 16, 1024),
+                        (16, 16, 1024),(16, 16, 1024),(8, 8, 1024),  (8, 8, 2048),(8, 8, 2048),(8, 8, 2048), (1, 1, 2048), (1001,1)]
+                </model_layer_shape>
+                <model_layer_size>
+[150791, 3810567, 952839, 3810568, 3810568, 984328, 1968392, 1968392, 1968392, 524552, 1048840, 1048840, 1048840, 1048840, 1048840, 262408, 524552, 524552, 524552, 8447]
+                </model_layer_size>
+                <model_layer_nums>
+                    21
+                </model_layer_nums>
+                <mobile_latency>
+                    [0,0.012793755,0.013764897,	0.021679538,	0.033276782,	0.04180072,	0.051179417,	0.059439586,	0.06779003,
+                    0.071991441,	0.082195737,	0.089744944,	0.096931738,	0.104235017,	0.110906176,	0.114339594,	0.124668293
+                    ,0.134349365,	0.144704379,	0.144666753,	0.145332112]
+                </mobile_latency>
+       </resnet>
+        <mobilenet>
+                <model_layer_name>['input','Conv2d_0', 'Conv2d_1_pointwise', 'Conv2d_2_pointwise',
+                'Conv2d_3_pointwise', 'Conv2d_4_pointwise', 'Conv2d_5_pointwise',
+                'Conv2d_6_pointwise', 'Conv2d_7_pointwise', 'Conv2d_8_pointwise',
+                'Conv2d_9_pointwise', 'Conv2d_10_pointwise', 'Conv2d_11_pointwise',
+                'Conv2d_12_pointwise', 'Conv2d_13_pointwise','Predictions']
+                </model_layer_name>
+                <model_layer_shape>
+                     [(224,224,3),(112, 112, 32),(112, 112, 64), (56, 56, 128),  (56, 56, 128), (28, 28, 256),(28, 28, 256),
+                    (14, 14, 512),  (14, 14, 512), (14, 14, 512),(14, 14, 512), (14, 14, 512),(14, 14, 512),
+                     (7, 7, 1024), (7, 7, 1024),(1001,1)]
+                </model_layer_shape>
+                <model_layer_size>
+[150791, 1605895, 3211527, 1605895, 1605895, 803080, 803080, 401672, 401672, 401672, 401672, 401672, 401672, 200968, 200968]
+                </model_layer_size>
+                <model_layer_nums>
+                        16
+                </model_layer_nums>
+                <mobile_latency>
+                    [0,0.009422084,0.02973159,0.041028759,0.058348451,0.065768584,0.078300987,
+                    0.085245294,0.095527805,0.109054202,0.120701477,0.13261622,0.145667918,0.151063488,0.159981256,0.163625636]
+                </mobile_latency>
+        </mobilenet>
+</model>

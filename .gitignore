@@ -1,0 +1,9 @@
+model_zoo/weights/resnet_v2_50.ckpt
+model_zoo/weights/mobilenet_v1_1.0_224.ckpt.meta
+model_zoo/weights/mobilenet_v1_1.0_224.ckpt.index
+model_zoo/weights/mobilenet_v1_1.0_224.ckpt.data-00000-of-00001
+model_zoo/weights/inception_v3_quant.ckpt.meta
+model_zoo/weights/inception_v3_quant.ckpt.index
+model_zoo/weights/inception_v3_quant.ckpt.data-00000-of-00001
+
+

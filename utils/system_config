@@ -1,0 +1,33 @@
+{
+  "model_zoo": 
+  {
+    "model_root_path":"./model_zoo"
+  },
+  "model_monitor":
+  {
+    "cycle":1,
+	"network_threshold":2
+  },
+  "load_balancer":
+  {
+    "start_port":1100,
+    "edge_ip":"192.168.1.16",
+    "socket_backlog":50
+  },
+    "device_manager":
+  {
+    "CPU":12,
+    "GPU":4
+  },
+  "system_config":
+  {
+   "strategy_update":10,
+   "bandwidth_update":15
+  },
+    "model_socket":
+  {
+   "max_cache":30,
+   "max_queue":300,
+   "record_batch":20
+  }
+}
